@@ -24,7 +24,10 @@ contract Storage {
         num1 =num1^num2;
     }
     
-    function returnNum1() public view returns(uint256,uint256){
-        return (num1,num2);
+    function returnNum1() public view returns(uint256){
+        return num1;
+    }
+    function returnNum2() public view returns(uint256){
+        return num2;
     }
 }
