@@ -19,7 +19,47 @@
 			},
 			{
 				"inputs": [],
+				"name": "Ready",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Waiting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "isActive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isReady",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isWaiting",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -72,11 +112,11 @@
 	},
 	"sources": {
 		"contracts/Enum.sol": {
-			"keccak256": "0xc33082d5e0a2e2973a6c13a8cc2e83cbbd335a7cc174cf1e633fa68c024fb0b5",
+			"keccak256": "0x54cb0b28443181035a9dbbfa1ed66d7e97203732a329e8369e3beac1a38d60de",
 			"license": "GPL-3.0-only",
 			"urls": [
-				"bzz-raw://68600e1739584520a72cc5bfb6138f3ef4dd96630da647c943c236c43fece709",
-				"dweb:/ipfs/QmcafAWf6bqgDbTWDLbeKnNX5MKqDBMhQtZQfq41XH8scA"
+				"bzz-raw://dd67acb032d285bed9ba2fff7f877c94903b1d5dafb23efdcd794be115b2b4fa",
+				"dweb:/ipfs/QmQ6KFZiiq6SdsFhQMRDmQ3MhhLB7YZtCzmbFqnW9JU4xV"
 			]
 		}
 	},

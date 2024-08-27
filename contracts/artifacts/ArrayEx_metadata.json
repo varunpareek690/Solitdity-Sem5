@@ -1,0 +1,191 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_fname",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lname",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ID",
+						"type": "uint256"
+					}
+				],
+				"name": "findPerson",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "globalId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_fname",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "personId",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "peopleCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "personToBeFound",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_fname",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "personId",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnPersonToBeFound",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "_fname",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "_lname",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "personId",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct ArrayEx.person",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Array.sol": "ArrayEx"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Array.sol": {
+			"keccak256": "0x2221d50aa29f242d48bc077fbb1aa92a489d3d8b85d0fd4f98461cdbe4867971",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8b43c5546234b9c1aee685f37e4b9f740ddc884c26a75ef1909f61f5ce65b2ee",
+				"dweb:/ipfs/Qmakyr6XWf2VNoSAJYJ1HMUNB2ymtZ46DX1reHYPPLX1G8"
+			]
+		}
+	},
+	"version": 1
+}
